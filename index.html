@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Ranking de Maquillaje Colombiano</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>💄 Ranking de Marcas de Maquillaje Colombianas</h1>
+
+<p class="subtitulo">
+Elige la marca que prefieras en cada comparación.
+El algoritmo aprenderá de tus decisiones.
+</p>
+
+<div class="contenedor-comparacion">
+
+<button id="marcaA" onclick="votar('A')"></button>
+
+<div class="vs">VS</div>
+
+<button id="marcaB" onclick="votar('B')"></button>
+
+</div>
+
+<h2>🏆 Ranking del algoritmo</h2>
+
+<ul id="ranking"></ul>
+
+<footer>
+Algoritmo basado en comparación A/B
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
